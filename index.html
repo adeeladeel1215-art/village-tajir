@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpor"
+content="width=device-width,initial-scale=1.0">
+    <title>Village Tajir</title>
+    <link rel="stylesheet"
+href="style.css">
+</head>
+<body>
+
+    <header>
+    <div class="logo">
+        <img src="logo.png" alt="Village Tajir Logo">
+        <h1>Village Tajir</h1>
+    </div>
+        <p>آپ کی دکان، آپ کا کاروبار</p>
+    </header>
+
+    <nav>
+    <a href="#"><span>🏠</span> Home</a>
+    <a href="#products"><span>🛒</span> Products</a>
+    <a href="#contact"><span>📞</span> Contact</a>
+</nav>
+
+    <section class="Welcome">
+        <h2>اپنی دکان کا سامان اب گھر بیٹھے منگوائیں!</h2>
+        <p>کریانہ کا معیاری سامان مناسب قیمت پر حاصل کریں۔</p>
+        <a href="#products"
+    class="btn">سامان دیکھیں</a>
+    </section>
+    <div class="cart-box">
+    <button onclick="showCart()">
+        🛒 Cart (<span id="cartCount">0</span>)
+    </button>
+    <div id="cartlist"></div>
+</div>
+    <section id="products">
+         <h2>ہمارا سامان</h2>
+         <div class="search-box">
+    <input type="text" id="searchInput" placeholder="🔍 سامان تلاش کریں...">
+</div>
+
+         <div class="products">
+
+        <div class="card">
+            <img src="images/biscuit.jpeg" 
+            alt="Biscuits">
+            <h3>بسکٹ</h3>
+            <button onclick="addToCart('Biscuits')">
+    Add to Cart 🛒
+</button>
+            <p>قیمت: آرڈر پر معلوم کریں</p>
+            <button onclick="order('بسکٹ')">آرڈر کریں</button>
+        </div>
+
+        <div class="card">
+            <img src="images/sabn.jpeg"
+             alt="Soap">
+            <h3>صابن</h3>
+            <button onclick="addToCart('صابن')">
+    Add to Cart 🛒
+</button>
+            <p>قیمت: آرڈر پر معلوم کریں</p>
+            <button onclick="order('صابن')">آرڈر کریں</button>
+        </div>
+
+        <div class="card">
+            <img src="images/vital.jpeg"
+             alt="Tea">
+            <h3>چائے</h3>
+            <button onclick="addToCart('چاۓ')">
+    Add to Cart 🛒
+</button>
+            <p>قیمت: آرڈر پر معلوم کریں</p>
+            <button onclick="order('چائے')">آرڈر کریں</button>
+        </div>
+
+        <div class="card">
+            <img src="images/sugar.jpeg"
+            alt="Sugar">
+            <h3>چینی</h3>
+            <button onclick="addToCart('چینی')">
+    Add to Cart 🛒
+</button>
+            <p>قیمت: آرڈر پر معلوم کریں</p>
+            <button onclick="order('چینی')">آرڈر کریں</button>
+        </div>
+        <div class="card">
+            <img src="images/nemat.jpeg"
+            alt="Ghee">
+            <h3>گھی</h3>
+            <button onclick="addToCart('گھی')">
+    Add to Cart 🛒
+</button>
+            <p>قیمت: آرڈر پر معلوم کریں</p>
+            <button onclick="order('گھی')">آرڈر کریں</button>
+        </div>
+        <div class="card">
+            <img src="images/chawal.jpeg"
+            alt="Rice">
+            <button onclick="addToCart('چاول')">
+    Add to Cart 🛒
+</button>
+            <h3>چاول</h3>
+            <p>قیمت: آرڈر پر معلوم کریں</p>
+            <button onclick="order('چاول')">آرڈر کریں</button>
+        </div>
+        <div class="card">
+            <img src="images/daal.jpeg"
+            alt="Daal">
+            <h3>دال</h3>
+            <button onclick="addToCart('دال')">
+    Add to Cart 🛒
+</button>
+            <p>قیمت: آرڈر پر معلوم کریں</p>
+            <button onclick="order('دال')">آرڈر کریں</button>
+        </div>
+        <div class="card">
+            <img src="images/flour.jpeg"
+            alt="Flour">
+            <h3>آٹا </h3>
+            <button onclick="addToCart('آٹا ')">
+    Add to Cart 🛒
+</button>
+            <p>قیمت: آرڈر پر معلوم کریں</p>
+            <button onclick="order('آٹا ')">آرڈر کریں</button>
+        </div>
+        
+    </div>
+    </section>
+
+    <footer id="contact">
+        <h3>Village Tajir</h3>
+        <p>اپنے گاؤں کے دکانداروں کے لیے بہترین سہولت۔</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
