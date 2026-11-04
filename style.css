@@ -499,3 +499,287 @@ footer {
         font-size: 11px;
     }
 }
+
+/* Modern Village Tajir Design */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f8f4;
+}
+
+header {
+    background: linear-gradient(135deg, #14532d, #22a06b);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 12px #00000015;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px #00000025;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+
+button {
+    background: #16834a;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0d6034;
+    transform: scale(1.03);
+}
+
+@media (max-width: 600px) {
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .card {
+        padding: 10px;
+    }
+
+    .card img {
+        height: 110px;
+    }
+}
+
+/* Modern Village Tajir Design */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f8f4;
+}
+
+header {
+    background: linear-gradient(135deg, #14532d, #22a06b);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 12px #00000015;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px #00000025;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+
+button {
+    background: #16834a;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0d6034;
+    transform: scale(1.03);
+}
+
+@media (max-width: 600px) {
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .card {
+        padding: 10px;
+    }
+
+    .card img {
+        height: 110px;
+    }
+}/* Modern Village Tajir Design */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f8f4;
+}
+
+header {
+    background: linear-gradient(135deg, #14532d, #22a06b);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 12px #00000015;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px #00000025;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+
+button {
+    background: #16834a;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0d6034;
+    transform: scale(1.03);
+}
+
+@media (max-width: 600px) {
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .card {
+        padding: 10px;
+    }
+
+    .card img {
+        height: 110px;
+    }
+}/* Modern Village Tajir Design */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f8f4;
+}
+
+header {
+    background: linear-gradient(135deg, #14532d, #22a06b);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 12px #00000015;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px #00000025;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+
+button {
+    background: #16834a;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0d6034;
+    transform: scale(1.03);
+}
+
+@media (max-width: 600px) {
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .card {
+        padding: 10px;
+    }
+
+    .card img {
+        height: 110px;
+    }
+}
