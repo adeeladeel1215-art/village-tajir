@@ -806,3 +806,22 @@ button:hover {
         transform: translateX(-50%);
     }
 }
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 25px;
+    padding-right: 40px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.logo h1 {
+    font-size: 55px;
+    margin: 0;
+}
