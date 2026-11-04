@@ -787,21 +787,22 @@ button:hover {
 .announcement {
     background: #ffc107;
     color: #14532d;
-    padding: 10px;
+    padding: 10px 0;
     font-weight: bold;
-    white-space: nowrap;
     overflow: hidden;
+    white-space: nowrap;
 }
 
-.announcement {
+.announcement-text {
+    display: inline-block;
     animation: moveText 12s linear infinite;
 }
 
 @keyframes moveText {
     from {
-        transform: translateX(100%);
+        transform: translateX(0);
     }
     to {
-        transform: translateX(-100%);
+        transform: translateX(-50%);
     }
 }
