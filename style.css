@@ -783,3 +783,25 @@ button:hover {
         height: 110px;
     }
 }
+
+.announcement {
+    background: #ffc107;
+    color: #14532d;
+    padding: 10px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.announcement {
+    animation: moveText 12s linear infinite;
+}
+
+@keyframes moveText {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
